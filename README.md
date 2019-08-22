@@ -5,7 +5,7 @@ Eat-Da-Burger is a restaurant app that lets users input the names of burgers the
 The app uses the following: Heroku (for deployment), NPM packages (Express, Handlebars, MySQL), ORM, Node, Handlebars, HTML, CSS
 
 # Hosted
-This app is hosted on Heroku: 
+This app is hosted on Heroku: https://eat-da-burger-kim.herokuapp.com/
 
 ## Authors
 Kim Chau
