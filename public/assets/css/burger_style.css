@@ -1,10 +1,4 @@
-.jumbotron {
-    background-image: url("../img/burger2.jpg");
-    background-size: cover;
-    color: white;
-    letter-spacing: 6px;
-}
-
 body {
-    background-image: url("../img/burger.jpg")
+    /* background-image: url("../img/burger.jpg") */
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
