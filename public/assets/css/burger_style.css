@@ -1,0 +1,30 @@
+ol {
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    background: #faebd7;
+}
+  
+  
+.label {
+    font-weight: bold;
+}
+  
+.create-update-form {
+    padding: 5px;
+    margin: 5px;
+    background: aqua;
+}
+  
+.form-group {
+    margin-bottom: 5px;
+}  
+  
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+body {
+    background-image: url(../img/burger.jpg);
+}

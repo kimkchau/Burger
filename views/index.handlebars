@@ -1,0 +1,52 @@
+<body>
+
+  <h1>Burgers!</h1>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <div class="left">
+          <h2>Burgers that are not devoured!</h2>
+          <ol>
+            hjkhk {{#each burgers}}
+            {{#unless devoured}}
+            {{> burgers/burger-block devoured=false}}
+            {{/unless}}
+            {{/each}}
+          </ol>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="right">
+      <h2>Burgers that are devoured!</h2>
+      <ol>
+        {{#each burgers}}
+        {{#if devoured}}
+        {{> burgers/burger-block devoured=true}}
+        {{/if}}
+        {{/each}}
+      </ol>
+    </div>
+  </div>
+
+
+  <h2>Add a Burger</h2>
+  <form class="create-form">
+
+    <div class="form-group">
+      <label for="burger">Burger Name:</label>
+      <input type="text" id="ca" name="name">
+    </div>
+
+    <div class="form-group">
+      <label for="burger">Devoured?</label><br>
+      <input type="radio" name="devoured" value="1"> checked devoured!<br>
+      <input type="radio" name="devoured" value="0"> Not devoured
+    </div>
+
+    <button type="submit">Add Burger</button>
+  </form>
+</body>
