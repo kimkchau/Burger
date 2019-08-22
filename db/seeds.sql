@@ -1,3 +1,3 @@
 USE burgers_db;
 
-INSERT INTO burgers (burger_name) VALUES ("Capital Hill Burger"), ("Queen Anne Burger"), ("Central Burger");
+INSERT INTO burgers (burger_name, devoured) VALUES ("Capital Hill Burger", false), ("Queen Anne Burger", false), ("Central Burger", false);
